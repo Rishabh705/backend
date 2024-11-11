@@ -11,7 +11,7 @@ def register_customer(request):
         first_name = request.data.get('first_name')
         last_name = request.data.get('last_name')
         age = request.data.get('age')
-        monthly_salary = request.data.get('monthly_salary')
+        monthly_salary = request.data.get('monthly_income')
         phone_number = request.data.get('phone_number')
 
 
