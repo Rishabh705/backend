@@ -61,7 +61,7 @@ These files will be ingested into the database using background tasks.
 
 **API Endpoints**
 
-1. Register a Customer - /register
+1. Register a Customer - /api/customer/register
 
     Method: POST
 
@@ -86,7 +86,7 @@ These files will be ingested into the database using background tasks.
             "phone_number": "1234567890"
         }
 
-2. Check Loan Eligibility - /check-eligibility
+2. Check Loan Eligibility - /api/loan/check-eligibility
 
     Method: POST
 
@@ -110,7 +110,7 @@ These files will be ingested into the database using background tasks.
             "monthly_installment": 5000.00
         }
 
-3. Create Loan - /create-loan
+3. Create Loan - /api/loan/create-loan
 
     Method: POST
 
@@ -133,7 +133,7 @@ These files will be ingested into the database using background tasks.
             "monthly_installment": 5000.00
         }
 
-4. View Loan Details - /view-loan/{loan_id}
+4. View Loan Details - /api/loan/view-loan/{loan_id}
 
     Method: GET
 
@@ -155,7 +155,7 @@ These files will be ingested into the database using background tasks.
     }
     ```
 
-5. View Loans by Customer - /view-loans/{customer_id}
+5. View Loans by Customer - /api/loan/view-loans/{customer_id}
 
     Method: GET
     
