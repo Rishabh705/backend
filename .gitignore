@@ -24,7 +24,7 @@ migrations/
 
 # Media files (if applicable)
 media/
-
+staticfiles/
 
 # IDE/editor files
 .vscode/
